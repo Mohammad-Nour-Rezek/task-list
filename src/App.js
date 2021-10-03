@@ -1,12 +1,9 @@
-function App() {
-  const name = 'Nour';
+import Header from './Components/Header'
 
+function App() {  
   return (
-    <div className="Container">
-      <header>
-        <h1>Task List Component</h1>
-        <h2>Hello {name}</h2>
-      </header>
+    <div className="container">
+      <Header />
     </div>
   );
 }
